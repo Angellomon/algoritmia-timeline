@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Línea del Tiempo</title>
+</head>
+<body>
+    <section id=timeline>
+        <h1>Vida estudiantil de un Cibernético</h1>
+        <p class="leader">Cómo un Cibernético puede agregar valor a su carrera</p>
+        <div class="demo-card-wrapper">
+            <div class="demo-card demo-card--step1">
+                <div class="head">
+                    <div class="number-box">
+                        <span>01</span>
+                    </div>
+                    <h2><span class="small">Demostrarse ante Lasallistas</span> Competitividad Lasallista</h2>
+                </div>
+                <div class="body">
+                    <p>ICode, concurso que realiza anualmente La Salle Cuernavaca, pone en perspectiva todo lo que el alumno sabe ante ellos de forma técnica y creativa</p>
+                    <img src="{{ url_for('static', filename='img/icode.jpg') }}" alt="iCode">
+                </div>
+            </div>
+    
+            <div class="demo-card demo-card--step2">
+                <div class="head">
+                    <div class="number-box">
+                        <span>02</span>
+                    </div>
+                    <h2><span class="small">Demostrarse ante el Mundo</span> Competitividad Mundial</h2>
+                </div>
+                <div class="body">
+                    <p>Esta competencia, organizada por IEEE, pone a sus competidores a resolver problemas lógicos desde la perspectiva técnica, enfocado a la optimización</p>
+                    <img src="{{ url_for('static', filename='img/ieeextreme.jpg') }}" alt="IEEExtreme">
+                </div>
+            </div>
+    
+            <div class="demo-card demo-card--step3">
+                <div class="head">
+                    <div class="number-box">
+                        <span>03</span>
+                    </div>
+                    <h2><span class="small">Subtitle</span> Demostrarse ante Empresas</h2>
+                </div>
+                <div class="body">
+                    <p>Esta competencia la realiza Tata Consultancy Services, para poner a prueba a personas de diversas universidades del mundo a competir para resolver problemas con eficiencia. Nótese que hay un gran número de competidores de la India, país muy competitivo tecnológicamente.</p>
+                    <img src="{{ url_for('static', filename='img/tata.png') }}" alt="Tata">
+                </div>
+            </div>
+    
+            <div class="demo-card demo-card--step4">
+                <div class="head">
+                    <div class="number-box">
+                        <span>04</span>
+                    </div>
+                    <h2><span class="small">Dar seguimiento a habilidades técnicas</span> Seguimiento en Línea</h2>
+                </div>
+                <div class="body">
+                    <p>Para dar seguimiento a estas habilidades adquiridas a la mitad de la carrera, se propone utilizar sitios como <a href="https://csacademy.com/">CSacademy.com</a>estableciendo así un desarrollo continuo de habilidades</p>
+                    <img src="{{ url_for('static', filename='img/CSacademy.jpg') }}" alt="CSacademy">
+                </div>
+            </div>
+    
+            <div class="demo-card demo-card--step5">
+                <div class="head">
+                    <div class="number-box">
+                        <span>05</span>
+                    </div>
+                    <h2><span class="small">Integración de tecnologías aprendidas en equipo</span> Desarrollo Integral</h2>
+                </div>
+                <div class="body">
+                    <p>A partir de esta etapa, el alumno ya habrá aprendido diversas tecnologías como prgramación, bases de datos, redes, entre otros. Se pondrá a prueba su capacidad de integrar concimientos, así como aprender nuevas tecnologías para resolver problemas de la vida real. Competencias como el Hackathon BBVA realizan esto mismo.</p>
+                    <img src="{{ url_for('static', filename='img/bbva.png') }}" alt="BBVA">
+                </div>
+            </div>
+            <div class="demo-card demo-card--step1">
+                    <div class="head">
+                        <div class="number-box">
+                            <span>06</span>
+                        </div>
+                        <h2><span class="small">Demostrarse ante el mundo como Desarrolladores de Soluciones</span> Competitividad Integral Mundial</h2>
+                    </div>
+                    <div class="body">
+                        <p>Como última etapa, se competirá en <a href="https://imagine.microsoft.com/es-es">Microsoft Imagine</a> para demostrar la capacidad del alumno de resolver problemas reales, integrando tecnologías modernas. Esta competencia es mundial y es organizado por Microsoft.</p>
+                        <img src="{{ url_for('static', filename='img/imagine.jpg') }}" alt="imagine">
+                    </div>
+                </div>
+        
+        </div>
+    </section>
+</body>
+</html>
