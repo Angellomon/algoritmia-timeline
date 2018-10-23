@@ -72,6 +72,10 @@ body {
   font-family: Roboto;
 }
 
+h2.titulo {
+  line-height: 100%;
+}
+
 #timeline {
   padding: 100px 0;
   background: #f7f7f7;
@@ -216,7 +220,6 @@ body {
   letter-spacing: 2px;
   margin: 0;
   padding-bottom: 6px;
-  line-height: 1rem;
 }
 
 @media (min-width: 480px) {

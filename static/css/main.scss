@@ -100,6 +100,10 @@
   body {
     font-family: Roboto;
   }
+
+  h2.titulo {
+    line-height: 100%;
+  }
   
   #timeline {
     padding: 100px 0;
@@ -213,7 +217,7 @@
           letter-spacing: 2px;
           margin: 0;
           padding-bottom: 6px;
-          line-height: 1rem;
+          // line-height: 100%;
           @include mq-sm {
             font-size: 165%;
             line-height: 1.2rem;
